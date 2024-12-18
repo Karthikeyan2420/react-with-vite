@@ -17,16 +17,16 @@ export const Class1 = () => {
 
     {/* List Rendering */}
 
-    <ul>
+   {/*  <ul>
       {list.map((items,index)=>{
-        return <li key={index}>{items}</li> /* with return */
+        return <li key={index}>{items}</li> 
       })}
     </ul>
     <ul>
       {list.map((items,index)=> (
-         <li key={index}>{items}</li> /* without return */
+         <li key={index}>{items}</li> 
       ))}
-    </ul>
+    </ul> */}
     </Fragment>
 
     
