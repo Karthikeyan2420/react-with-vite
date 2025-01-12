@@ -18,3 +18,11 @@ Class4Array.prototype={
         })
     ).isRequired,
 }
+
+/* Class4Array.prototype={
+    items: PropTypes.oneOfType([PropTypes.string,PropTypes.number,PropTypes.bool])
+} */
+
+/* Class4Array.PropTypes={
+    items :PropTypes.func.isRequired
+} */

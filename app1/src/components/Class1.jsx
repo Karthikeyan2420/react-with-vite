@@ -2,9 +2,9 @@
 import { Fragment } from 'react'
 import '../css/class1.css'
 export const Class1 = () => {
-    const c1="high";const c2="mark";const istrue=false;
+    const c1="high";const c2="mark";const istrue=true;
     const msg=istrue?<p>Logged In Successfully</p>:<p>Please Login</p>
-    const list=["item1","item2","item3"]
+    /* const list=["item1","item2","item3"] */
   return (
     <Fragment>{/* fragment is used to group a list of children without adding extra nodes to the DOM */}
     
